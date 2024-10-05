@@ -6,21 +6,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock paper scissors solution</title>
+
+    <!-- Font -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/base.css">
+
+
 </head>
 
 <body>
     <!-- Layout -->
-    <h1>Rock paper scissors</h1>
-    <p>To play the game, open the <em> browser console</em>,
-        click the <em>play</em> button and type either <em>rock</em>, <em>paper</em> or
-        <em>scissors</em>.
-        <br>
-        The game's rules are: rock beats scissors, scissors beat paper, and paper beats rock.
-    </p>
-    <button class="button-primary" onclick="playGame()">play</button>
+    <div class="container">
+        <div class="row">
+            <div class="two-half column">
+                <h3>Rock paper scissors solution</h3>
+                <p>TOP project submission</p>
+                <hr>
+                <p>To play the game, open the <em> browser console</em>,
+                    click the <code>PLAY</code> button and type either <em>rock</em>, <em>paper</em> or
+                    <em>scissors</em>.
+                    <br>
+                    The game's rules are: rock beats scissors, scissors beat paper, and paper beats rock.
+                </p>
+                <button class="button-primary" onclick="reloadPage()">Play</button>
+
+            </div>
+        </div>
+    </div>
 
     <!-- JS -->
-    <script src="js/rps.js"></script>
+    <script defer src="js/rps-arrow-func.js"></script>
     <!-- End doc -->
 </body>
 
